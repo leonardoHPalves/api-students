@@ -1,2 +1,16 @@
 # api-students
-API to  `Golang` stundents 
+API to manage  `Golang` course stundents 
+ 
+  Routes:
+  - GET /students - List all students 
+  - POST /students - Create students
+  - GET /students/:id - Get infos from a specific student 
+  - PUT /students/:id - Update student 
+  - DELETE /students/:id - Delete student
+
+  Struct Student:
+  - Name
+  - CPF
+  - Email
+  - Age
+  - Active
