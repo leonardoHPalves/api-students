@@ -9,8 +9,8 @@ API to manage  `Golang` course stundents
   - DELETE /students/:id - Delete student
 
   Struct Student:
-  - Name
-  - CPF
-  - Email
-  - Age
-  - Active
+  - Name (string)
+  - CPF  (int)
+  - Email (string)
+  - Age (int)
+  - Active (bool)
